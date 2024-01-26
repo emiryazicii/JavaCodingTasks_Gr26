@@ -1,4 +1,4 @@
-package week01.jika;
+package week01.task1;
 
 public class OddOrEven_Jika {
 }

@@ -1,4 +1,4 @@
-package week01.emir;
+package week01.task2;
 
 public class DivideWithoutDivisionOperator_Emir {
 }

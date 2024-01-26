@@ -1,4 +1,4 @@
-package week01.farhad;
+package week01.task3;
 
 public class FINRA_Farhad {
 }
