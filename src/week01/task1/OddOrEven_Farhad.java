@@ -1,4 +1,4 @@
-package week01.farhad;
+package week01.task1;
 
 public class OddOrEven_Farhad {
 }
