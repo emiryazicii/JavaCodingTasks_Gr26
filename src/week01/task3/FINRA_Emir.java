@@ -1,4 +1,4 @@
-package week01.emir;
+package week01.task3;
 
 public class FINRA_Emir {
 }
