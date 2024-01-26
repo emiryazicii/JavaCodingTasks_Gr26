@@ -14,7 +14,7 @@ public class FINRA_Farhad {
                 System.out.println(i + " - FIN");
             } else if (i%5==0) {
                 System.out.println(i + " - RA");
-            }else System.out.println(i);;
+            }else System.out.println(i);
         }
     }
 
