@@ -22,6 +22,7 @@ Every week, your mentor Zack will share 2 or 3 different Java coding tasks. Team
   - https://github.com/emiryazicii/JavaCodingTasks_Gr26
 
 - **Collaborators:**
+  - [@ZackQA](https://github.com/ZackQA) - Mentor
   - [@bataborisa](https://github.com/bataborisa) - Collaborator
   - [@drnajimov](https://github.com/drnajimov) - Collaborator
   - [@emredorak](https://github.com/emredorak) - Awaiting emredorak’s response (Pending Invite)
@@ -53,7 +54,7 @@ To get started with the project, follow these steps:
 ## Contact
 
 For any questions or concerns, feel free to contact:
-- **Mentor:** Zack
+- **Mentor:**  [@ZackQA](https://github.com/ZackQA)
 - **Team Members:**
   - [@bataborisa](https://github.com/bataborisa)
   - [@drnajimov](https://github.com/drnajimov)
