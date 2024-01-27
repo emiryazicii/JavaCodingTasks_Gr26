@@ -19,7 +19,7 @@ Every week, your mentor Zack will share 2 or 3 different Java coding tasks. Team
 ## Collaboration Guidelines
 
 - **GitHub Repository:**
-  - [Link to GitHub Repository](https://github.com/your-username/JavaCodingTasks_Gr26)
+  - https://github.com/emiryazicii/JavaCodingTasks_Gr26
 
 - **Collaborators:**
   - [@bataborisa](https://github.com/bataborisa) - Collaborator
