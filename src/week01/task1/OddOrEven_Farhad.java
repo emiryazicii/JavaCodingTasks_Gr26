@@ -9,9 +9,9 @@ public class OddOrEven_Farhad {
 
     public static void OddOrEven(int n) {
 
-        if(n%2==0){
+        if (n % 2 == 0) {
             System.out.println("Even");
-        }else{
+        } else {
             System.out.println("Odd");
         }
     }
