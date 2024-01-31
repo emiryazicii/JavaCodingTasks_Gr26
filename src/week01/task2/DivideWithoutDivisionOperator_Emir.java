@@ -4,26 +4,26 @@ public class DivideWithoutDivisionOperator_Emir {
 
     public static void main(String[] args) {
 
-        divideWithoutDivision(80,9);
-        divideWithoutDivision(40,12);
-        divideWithoutDivision(70,21);
-        divideWithoutDivision(3,5);
-        divideWithoutDivision(4,2);
-        //divideWithoutDivision(10,0);
-
-        System.out.println("--------------------------------------------------");
-
-        division(-23,5);
-        division(5,6);
-        division(30,-6);
-        division(-25,-5);
-        division(140,21);
-        division(45,-13);
-        //division(14,0);
-
-        System.out.println("-----------------------------------------------------");
-
         try {
+
+            divideWithoutDivision(80,9);
+            divideWithoutDivision(40,12);
+            divideWithoutDivision(70,21);
+            divideWithoutDivision(3,5);
+            divideWithoutDivision(4,2);
+            //divideWithoutDivision(10,0);
+
+            System.out.println("--------------------------------------------------");
+
+            division(-23,5);
+            division(5,6);
+            division(30,-6);
+            division(-25,-5);
+            division(140,21);
+            division(45,-13);
+            //division(14,0);
+
+            System.out.println("-----------------------------------------------------");
 
             int result2 = division2(-30, -6);
             System.out.println("Result = " + result2);
