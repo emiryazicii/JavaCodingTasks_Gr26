@@ -57,11 +57,15 @@ public class DivideWithoutDivisionOperator_Emir {
 
     public static void divideWithoutDivision(int a, int b){ // only works with positive integers
 
-        int count = 0;
+        if(a < 0 && b < 0){
+            throw new IllegalArgumentException("Both a and b must be positive");
+        }
 
         if(b == 0){
             throw new ArithmeticException(a + " cannot divide by " + b);
         }else{
+            int count = 0;
+
             while(a >= b ){
                 count++;
                 a -= b ;
@@ -92,6 +96,10 @@ public class DivideWithoutDivisionOperator_Emir {
     }
 
     public static int divideWithoutDivision2(int a, int b)  { // only works with positive integers
+
+        if(a < 0 && b < 0){
+            throw new IllegalArgumentException("Both a and b must be positive");
+        }
 
         if (b == 0) {
             throw new ArithmeticException(a + " cannot divide by " + b);
