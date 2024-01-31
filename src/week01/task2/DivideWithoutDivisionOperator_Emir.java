@@ -91,7 +91,7 @@ public class DivideWithoutDivisionOperator_Emir {
                 count++;
                 a -= b;
             }
-            System.out.println("Result = "+sign*count);
+            System.out.println("Result = "+(sign*count));
         }
     }
 
