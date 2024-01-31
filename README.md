@@ -23,15 +23,13 @@ Every week, your mentor Zack will share 2 or 3 different Java coding tasks. Team
 
 - **Collaborators:**
   - [@ZackQA](https://github.com/ZackQA) - Mentor
+  - [@emiryazicii](https://github.com/emiryazicii) - Team Lead
   - [@bataborisa](https://github.com/bataborisa) - Collaborator
   - [@drnajimov](https://github.com/drnajimov) - Collaborator
-  - [@emredorak](https://github.com/emredorak) - Awaiting emredorak’s response (Pending Invite)
   - [@Fleshka87](https://github.com/Fleshka87) - Collaborator
   - [@Guendouz27](https://github.com/Guendouz27) - Collaborator
   - [@HakanEmirgan54](https://github.com/HakanEmirgan54) - Collaborator
   - [@jika17](https://github.com/Zhyldyz) - Collaborator
-  - [@moalsaadi558](https://github.com/moalsaadi558) - Awaiting moalsaadi558’s response (Pending Invite)
-  - [@nuketpusat](https://github.com/nuketpusat) - Collaborator
 
 ## Weekly Mentor Meetings
 
@@ -56,14 +54,12 @@ To get started with the project, follow these steps:
 For any questions or concerns, feel free to contact:
 - **Mentor:**  [@ZackQA](https://github.com/ZackQA)
 - **Team Members:**
+  - [@emiryazicii](https://github.com/emiryazicii)
   - [@bataborisa](https://github.com/bataborisa)
   - [@drnajimov](https://github.com/drnajimov)
-  - [@emredorak](https://github.com/emredorak)
   - [@Fleshka87](https://github.com/Fleshka87)
   - [@Guendouz27](https://github.com/Guendouz27)
   - [@HakanEmirgan54](https://github.com/HakanEmirgan54)
   - [@jika17](https://github.com/Zhyldyz)
-  - [@moalsaadi558](https://github.com/moalsaadi558)
-  - [@nuketpusat](https://github.com/nuketpusat)
 
 Happy coding!
