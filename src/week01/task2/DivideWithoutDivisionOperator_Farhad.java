@@ -4,11 +4,12 @@ public class DivideWithoutDivisionOperator_Farhad {
 
     public static void main(String[] args) {
 
-        DivideWithoutDivisionOperator(5,1);
+        divideWithoutDivisionOperator(5,1);
 
     }
 
-    public static void DivideWithoutDivisionOperator(int n1, int n2){
+    public static void divideWithoutDivisionOperator(int n1, int n2){
+
 
         if(n2==0){
             System.out.println("Cannot divide");

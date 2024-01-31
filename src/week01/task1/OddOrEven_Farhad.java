@@ -3,16 +3,16 @@ package week01.task1;
 public class OddOrEven_Farhad {
 
     public static void main(String[] args) {
-        OddOrEven(5);
-        OddOrEven(6);
+        oddOrEven(5);
+        oddOrEven(6);
     }
 
-    public static void OddOrEven(int n) {
+    public static void oddOrEven(int n) {
 
         if (n % 2 == 0) {
-            System.out.println("Even");
+            System.out.println(n + " - Even");
         } else {
-            System.out.println("Odd");
+            System.out.println(n + " - Odd");
         }
     }
 

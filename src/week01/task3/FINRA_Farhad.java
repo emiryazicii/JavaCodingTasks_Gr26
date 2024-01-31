@@ -3,17 +3,18 @@ package week01.task3;
 public class FINRA_Farhad {
 
     public static void main(String[] args) {
-        FINRA(30);
+        finra(30);
     }
 
-    public static void FINRA(int n){
+    public static void finra(int n){
+
         for (int i = 1; i <= n; i++) {
             if(i%3==0 && i%5==0){
-                System.out.println(i + " - FINRA");
+                System.out.println(i + " - finra");
             }else if(i%3==0){
-                System.out.println(i + " - FIN");
+                System.out.println(i + " - fin");
             } else if (i%5==0) {
-                System.out.println(i + " - RA");
+                System.out.println(i + " - ra");
             }else System.out.println(i);
         }
     }
