@@ -57,8 +57,8 @@ public class DivideWithoutDivisionOperator_Emir {
 
     public static void divideWithoutDivision(int a, int b){ // only works with positive integers
 
-        if(a < 0 && b < 0){
-            throw new IllegalArgumentException("Both a and b must be positive");
+        if(a < 0 || b < 0){
+            throw new IllegalArgumentException("a or be can't be negative.");
         }
 
         if(b == 0){
@@ -97,8 +97,8 @@ public class DivideWithoutDivisionOperator_Emir {
 
     public static int divideWithoutDivision2(int a, int b)  { // only works with positive integers
 
-        if(a < 0 && b < 0){
-            throw new IllegalArgumentException("Both a and b must be positive");
+        if(a < 0 || b < 0){
+            throw new IllegalArgumentException("a or b can't be negative");
         }
 
         if (b == 0) {
