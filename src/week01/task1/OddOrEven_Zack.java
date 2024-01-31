@@ -13,6 +13,7 @@ public class OddOrEven_Zack {
     public static void main(String[] args) {
         identifyOddEven(5); // ->  "Odd"
         identifyOddEven(6); // ->  "Even"
+
     }
 
     /**
