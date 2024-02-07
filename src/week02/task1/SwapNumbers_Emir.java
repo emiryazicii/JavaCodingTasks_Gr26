@@ -1,4 +1,4 @@
-package week02;
+package week02.task1;
 
 public class SwapNumbers_Emir {
 
