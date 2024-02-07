@@ -30,6 +30,7 @@ Every week, your mentor Zack will share 2 or 3 different Java coding tasks. Team
   - [@Guendouz27](https://github.com/Guendouz27) - Collaborator
   - [@HakanEmirgan54](https://github.com/HakanEmirgan54) - Collaborator
   - [@jika17](https://github.com/Zhyldyz) - Collaborator
+  - [@ayat9696](https://github.com/ayat9696) - Collaborator
 
 ## Weekly Mentor Meetings
 
@@ -61,5 +62,6 @@ For any questions or concerns, feel free to contact:
   - [@Guendouz27](https://github.com/Guendouz27)
   - [@HakanEmirgan54](https://github.com/HakanEmirgan54)
   - [@jika17](https://github.com/Zhyldyz)
+  - [@ayat9696](https://github.com/ayat9696)
 
 Happy coding!
