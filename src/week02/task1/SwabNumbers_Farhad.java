@@ -1,4 +1,4 @@
-package week02.task3;
+package week02.task1;
 
 public class SwabNumbers_Farhad {
     public static void main(String[] args) {

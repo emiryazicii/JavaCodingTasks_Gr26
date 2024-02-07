@@ -1,6 +1,6 @@
-package week02.task1;
+package week02.task3;
 
-public class ConsecutiveNumber_Farhad {
+public class PrintConsecutiveNumber_Farhad {
     public static void main(String[] args) {
 
         int num = 17;
