@@ -19,23 +19,16 @@ public class ReverseNegativeNumber_Emir {
             throw new IllegalArgumentException("Number must be negative.");
         }
 
-        //If the number is negative, storing that negative (-)sign in variable sign.
-        int sign = -1;
-
         //Storing the reversed version of the negative number.
         int reversed = 0;
 
-        //Need to get absolute value of negative number.
-        number = Math.abs(number);
-
-        while (number > 0) {
+        while (number < 0) {
             int digit = number % 10;
             reversed = reversed * 10 + digit;
             number /= 10;
         }
 
-        //After reverse the negative number, not it's time put the (-)sign back
-         return sign*reversed;
+         return reversed;
     }
 }
 /*
