@@ -4,15 +4,15 @@ public class ReverseNegativeNumber_Emir {
 
     public static void main(String[] args) {
 
-        System.out.println(reverseNumber(-542));
-        System.out.println(reverseNumber(-62));
-        System.out.println(reverseNumber(-4589));
-        //System.out.println(reverseNumber(241));
-        //System.out.println(reverseNumber(0));
+        System.out.println(reverseNegativeNumber(-542));
+        System.out.println(reverseNegativeNumber(-62));
+        System.out.println(reverseNegativeNumber(-4589));
+        System.out.println(reverseNegativeNumber(241));
+        System.out.println(reverseNegativeNumber(0));
 
     }
 
-    public static int reverseNumber(int number){
+    public static int reverseNegativeNumber(int number){
 
         //Checking is the given number is negative.
         if (number>=0){
