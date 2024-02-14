@@ -1,6 +1,6 @@
 package week03.task2;
 
-public class ReverseNegativeNumber {
+public class ReverseNegativeNumber_Boris {
 
     public static void main(String[] args) {
 
