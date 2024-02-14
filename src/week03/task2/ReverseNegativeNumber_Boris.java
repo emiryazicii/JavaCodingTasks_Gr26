@@ -4,7 +4,7 @@ public class ReverseNegativeNumber_Boris {
 
     public static void main(String[] args) {
 
-        System.out.println(reverseNegativeNumber(-53));
+        System.out.println(reverseNegativeNumber(-42998));
     }
 
 
