@@ -15,12 +15,12 @@ public class PrimeNumber_Emir {
 
     public static boolean isPrime(int number){
 
-        // Prime numbers starts from 2.And there is no negative prime numbers.
+        // Prime numbers starts from 2, and there is no negative prime number.
         if(number<2){
             return false;
         }
 
-        //Checking if the giving number divisible by any numbers other than itself and 1
+        //Checking if the giving number divisible by any numbers other than itself and 1.
         for (int i = 2; i < number/2 ; i++) {
 
             if(number % i == 0){
