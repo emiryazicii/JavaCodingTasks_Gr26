@@ -28,7 +28,6 @@ public class ReverseNegativeNumber_Emir {
             number /= 10;
         }
 
-        //After reverse the negative number, not it's time put the (-)sign back
          return reversed;
     }
 }
