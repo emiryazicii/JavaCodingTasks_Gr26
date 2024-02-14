@@ -8,7 +8,7 @@ public class ReverseNegativeNumber_Zack {
      */
 
     public static void main(String[] args) {
-        System.out.println("reverseNum(-35) = " + reverseNum(-35));
+        System.out.println(reverseNegativeNum(-56));
     }
 
     /**
@@ -16,18 +16,19 @@ public class ReverseNegativeNumber_Zack {
      * @param num
      * @return
      */
-    public static int reverseNum(int num) {
+    public static int reverseNegativeNum(int num) {
 
+        if(num >= 0){
+            System.err.println("Invalid value. Please enter a negative number.");
+            System.exit(0);
+        }
         // convert it to String object in order to use reverse() from StringBuilder class
-        // -35 => 53-
-        String str = new StringBuilder(""+num).reverse().toString();
+        String str = new StringBuilder(""+num).reverse().toString(); // -35 => 53-
 
         // -  +  53-  => -53-
-        if(num < 0) {
-            str = "-"+str.substring(0, str.length()-1); // removes - sign from the end of the string
-        }
-        // -53 but it still is a String object
+        str = "-"+str.substring(0, str.length()-1); // removes - sign from the end of the string
 
+        // -53 but it still is a String object
         return Integer.valueOf(str); // returns it as int value as -53
     }
 

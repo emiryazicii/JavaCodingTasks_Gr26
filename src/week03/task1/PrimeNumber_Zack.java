@@ -9,8 +9,8 @@ public class PrimeNumber_Zack {
      */
 
     public static void main(String[] args) {
-        System.out.println("primeNumber(32) = " + primeNumber(32));
-        System.out.println("primeNumber(19) = " + primeNumber(19));
+        System.out.println("primeNumber(32) = " + primeNumber(17));
+        System.out.println("primeNumber(19) = " + primeNumber(0));
         System.out.println("primeNumber(882) = " + primeNumber(882));
     }
 
