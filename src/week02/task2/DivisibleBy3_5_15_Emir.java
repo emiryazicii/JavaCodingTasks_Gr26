@@ -7,24 +7,33 @@ public class DivisibleBy3_5_15_Emir {
         divisibleBy3_5_15(100);
     }
 
-    public static void divisibleBy3_5_15(int n){
+    /**
+     * Prints numbers divisible by 3, 5, and 15 separately up to a given number.
+     *
+     * @param n The upper limit of the range.
+     */
+    public static void divisibleBy3_5_15(int n) {
+        // Initialize strings to store numbers divisible by 15, 5, and 3
+        String divisibleBy15 = "", divisibleBy5 = "", divisibleBy3 = "";
 
-        String divisibleBy15 ="", divisibleBy5 = "", divisibleBy3 = "";
-
-        for (int i = 1; i <= n ; i++) {
-            if(i % 15 == 0){
-                divisibleBy15 += i + " ";
-            }else if (i % 5 == 0){
-                divisibleBy5 += i + " ";
-            }else if (i % 3 == 0){
-                divisibleBy3 += i + " ";
+        // Iterate through numbers from 1 to n
+        for (int i = 1; i <= n; i++) {
+            // Check if the number is divisible by 15
+            if (i % 15 == 0) {
+                divisibleBy15 += i + " "; // Append the number to the divisibleBy15 string
+            } else if (i % 5 == 0) { // Check if the number is divisible by 5
+                divisibleBy5 += i + " "; // Append the number to the divisibleBy5 string
+            } else if (i % 3 == 0) { // Check if the number is divisible by 3
+                divisibleBy3 += i + " "; // Append the number to the divisibleBy3 string
             }
         }
 
-        System.out.println("divisibleBy15 = " + divisibleBy15.trim());
-        System.out.println("divisibleBy5 = " + divisibleBy5.trim());
-        System.out.println("divisibleBy3 = " + divisibleBy3.trim());
+        // Print the numbers divisible by 15, 5, and 3
+        System.out.println("Numbers divisible by 15: " + divisibleBy15.trim());
+        System.out.println("Numbers divisible by 5: " + divisibleBy5.trim());
+        System.out.println("Numbers divisible by 3: " + divisibleBy3.trim());
     }
+
 }
 /*
 Write a program that can print the numbers between 1 ~ 100 that can be divisible by 3, 5, and 15.

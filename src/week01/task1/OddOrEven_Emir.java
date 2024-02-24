@@ -20,23 +20,35 @@ public class OddOrEven_Emir {
 
     }
 
-    public static void identify(int number ){
-
+    /**
+     * Prints whether the given number is odd or even.
+     *
+     * @param number The number to identify.
+     */
+    public static void identify(int number) {
+        // Check if the number is even
         if (number % 2 == 0) {
             System.out.println("Even");
-        } else {
+        } else { // If not even, it's odd
             System.out.println("Odd");
         }
     }
 
-    public static String oddOrEven(int number){
-
+    /**
+     * Determines whether the given number is odd or even and returns the result as a string.
+     *
+     * @param number The number to identify.
+     * @return "Even" if the number is even, "Odd" if the number is odd.
+     */
+    public static String oddOrEven(int number) {
+        // Check if the number is even
         if (number % 2 == 0) {
-             return "Even";
-        }else {
-            return "Odd";
+            return "Even"; // Return "Even" if the number is even
+        } else {
+            return "Odd"; // Return "Odd" if the number is odd
         }
     }
+
 }
 /*
 Write a method that can identify a given number is even or odd.

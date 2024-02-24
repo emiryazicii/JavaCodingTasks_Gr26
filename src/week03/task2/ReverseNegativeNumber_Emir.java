@@ -12,24 +12,31 @@ public class ReverseNegativeNumber_Emir {
 
     }
 
-    public static int reverseNegativeNumber(int number){
-
-        //Checking is the given number is negative.
-        if (number>=0){
+    /**
+     * Reverses a negative number.
+     *
+     * @param number The negative number to be reversed.
+     * @return The reversed negative number.
+     * @throws IllegalArgumentException If the input number is not negative.
+     */
+    public static int reverseNegativeNumber(int number) {
+        // Checking if the given number is negative.
+        if (number >= 0) {
             throw new IllegalArgumentException("Number must be negative.");
         }
 
-        //Storing the reversed version of the negative number.
+        // Storing the reversed version of the negative number.
         int reversed = 0;
 
         while (number < 0) {
-            int digit = number % 10;
-            reversed = reversed * 10 + digit;
-            number /= 10;
+            int digit = number % 10; // Extract the last digit
+            reversed = reversed * 10 + digit; // Append the digit to the reversed number
+            number /= 10; // Move to the next digit by dividing the number by 10
         }
 
-         return reversed;
+        return reversed; // Return the reversed negative number
     }
+
 }
 /*
 Write a return method that can reverse digits of a negative number and return it as int
