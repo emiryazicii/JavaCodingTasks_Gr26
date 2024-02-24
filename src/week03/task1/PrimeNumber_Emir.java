@@ -13,22 +13,28 @@ public class PrimeNumber_Emir {
         System.out.println(isPrime(2));
     }
 
-    public static boolean isPrime(int number){
-
-        // Prime numbers starts from 2, and there is no negative prime number.
-        if(number<2){
+    /**
+     * Checks if a number is a prime number.
+     *
+     * @param number The number to be checked.
+     * @return True if the number is prime, false otherwise.
+     */
+    public static boolean isPrime(int number) {
+        // Prime numbers start from 2, and there is no negative prime number.
+        if (number < 2) {
             return false;
         }
 
-        //Checking if the giving number divisible by any numbers other than itself and 1.
-        for (int i = 2; i < number/2 ; i++) {
-
-            if(number % i == 0){
-                return false;
+        // Checking if the given number is divisible by any numbers other than itself and 1.
+        // We only need to check up to the square root of the number for efficiency.
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false; // If the number is divisible by any other number, it's not prime
             }
         }
-        return true;
+        return true; // If no divisors other than 1 and the number itself, it's prime
     }
+
 }
 /*
 Write a method that can check if a number is prime or not

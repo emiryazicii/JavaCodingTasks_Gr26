@@ -9,39 +9,50 @@ public class FINRA_Emir {
 
     }
 
+    /**
+     * Displays numbers from 1 to n, replacing multiples of 3 with "FIN", multiples of 5 with "RA",
+     * and multiples of both 3 and 5 with "FINRA".
+     *
+     * @param n The upper limit of numbers to display.
+     */
     public static void displayFinra(int n) {
-
         for (int i = 1; i <= n; i++) {
-            if (i % 15 == 0) {
+            if (i % 15 == 0) { // Check if i is a multiple of both 3 and 5
                 System.out.println("FINRA");
-            } else if (i % 5 == 0) {
+            } else if (i % 5 == 0) { // Check if i is a multiple of 5
                 System.out.println("RA");
-            } else if (i % 3 == 0) {
+            } else if (i % 3 == 0) { // Check if i is a multiple of 3
                 System.out.println("FIN");
             } else {
-                System.out.println(i);
+                System.out.println(i); // Print the number i if it's not a multiple of 3 or 5
             }
         }
     }
 
+    /**
+     * Displays numbers from 1 to n, replacing multiples of 3 with "FIN", multiples of 5 with "RA",
+     * and multiples of both 3 and 5 with "FINRA".
+     *
+     * @param n The upper limit of numbers to display.
+     */
     public static void displayFinra2(int n) {
+        for (int i = 1; i <= n; i++) {
+            String result = ""; // Initialize an empty string to store the result
 
-        for (int i = 1; i <=n ; i++) {
-            String result = "";
-
-            if(i % 3 == 0){
+            if (i % 3 == 0) { // Check if i is a multiple of 3
                 result += "FIN";
             }
-            if (i % 5 == 0){
+            if (i % 5 == 0) { // Check if i is a multiple of 5
                 result += "RA";
             }
-            if (result.isEmpty()){
-                System.out.println(i); //  System.out.println(result.isEmpty() ? i : result);
-            }else {
-                System.out.println(result);
+            if (result.isEmpty()) { // If the result string is empty, i is neither a multiple of 3 nor 5
+                System.out.println(i); // Print the number i
+            } else {
+                System.out.println(result); // Print the result string
             }
         }
     }
+
 }
 /*
 Write a method that prints out the numbers from 1 to 30 but;
